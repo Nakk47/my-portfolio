@@ -9,20 +9,28 @@
 
 <body>
     <div id="navBar">
-        <button onclick="scrollToTop()" id="home">
-            <span class="front">Home</span>
+        <button id="home">
+            <span onclick="scrollToHome()" class="front">Home</span>
         </button>
 
         <button id="about">
-            <span onclick="scrollToAbout()" class="front">About</span>
+            <span onclick="scrollToAbout()" class="front">About Me</span>
         </button>
 
         <button id="skill">
             <span onclick="scrollToSkill()" class="front">Skill</span>
         </button>
         
+        <button id="education">
+            <span onclick="scrollToEducation()" class="front">Education</span>
+        </button>
+
+        <button id="experience">
+            <span onclick="scrollToExperience()" class="front">Experience</span>
+        </button>
+        
         <button id="contact">
-            <span onclick="scrollToBottom()" class="front">Contact</span>
+            <span onclick="scrollToContact()" class="front">Contact</span>
         </button>
     </div>
 
@@ -35,11 +43,25 @@
 
 
     <div id="myContent">
-        <h1 id="comingSoon1">Coming Soon!</h1>
-    </div>
+        <div id="myAbout">
+            <h1 class="comingSoon">Coming Soon!</h1>
+        </div>
 
-    <div>
-        <h1 id="comingSoon2">Coming Soon!</h1>
+        <div id="mySkill">
+            <h1 class="comingSoon">Coming Soon!</h1>
+        </div>     
+
+        <div id="myEducation">
+            <h1 class="comingSoon">Coming Soon!</h1>
+        </div>
+
+        <div id="myExperience">
+            <h1 class="comingSoon">Coming Soon!</h1>
+        </div>
+
+        <div id="myContact">
+            <h1 class="comingSoon">Coming Soon!</h1>
+        </div>
     </div>
 
     <div id="bottomContent">

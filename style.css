@@ -5,11 +5,11 @@ p, h1 {
 body{
     margin: 0px;
     display: block;
-
+    height: 5450px;
 }
 
 #myHeader {
-    height: 1000px;
+    height: 950px;
     width: 100vw;
     background-color: #2baf2b;
     margin: 0px;
@@ -30,7 +30,6 @@ body{
 
 #hello
 {
-    text-align: center;
     margin: 0;
     margin-top: 0px;
     font-size: 40px;
@@ -65,12 +64,12 @@ body{
     box-shadow: 0px 1px 3px;
 }
 
-#home, #about, #skill, #contact {
+#home, #about, #skill, #contact, #education, #experience {
     margin-top: 25px;
     margin-bottom: 25px;
     font-weight: bold;
     color: white;
-    width: 110px;
+    width: 130px;
     background-color: rgb(24, 24, 24);
     border-radius: 7.5px;
     border: none;
@@ -92,7 +91,7 @@ body{
 }
 
 #myContent{
-    height: 5000px;
+    height: 4500px;
     margin-top: 0;
 }
 
@@ -100,6 +99,7 @@ body{
     height: 50px;
     background-color: black;
     display: grid;
+    margin: 0;
 }
 
 #copyrightContent {
@@ -107,10 +107,18 @@ body{
     text-align: center;
 }
 
-#comingSoon1, #comingSoon2
+.comingSoon
 {
     color: black;
     text-align: center;
+    font-style: verdana;
+    margin: 0;
+}
+
+#myAbout, #mySkill, #myEducation, #myExperience, #myContact
+{
+    height: 900px;
+    margin: 0;
 }
 
 /* VIEW PRORT */
