@@ -1,5 +1,7 @@
+
+
 p, h1 {
-    font-family: verdana;
+    font-family: "Garet";
 }
 
 body{
@@ -10,10 +12,12 @@ body{
 
 #myHeader {
     height: 950px;
-    background-color: #2baf2b;
+    background-color: #2b38af;
     margin: 0px;
     display: grid;
     justify-content: center;
+    border-bottom: 2px solid rgb(165, 165, 165);
+
 }
 
 #myPortfolio, #welcome, #hello {
@@ -34,7 +38,7 @@ body{
     margin-top: 0px;
     font-size: 40px;
     width: 1347px;
-    padding-top: 275px;
+    padding-top: 300px;
 }
 
 #myPortfolio{
@@ -124,14 +128,15 @@ body{
     background-color: #0e1217;
     display: flex;
     justify-content: center;
+    border-bottom: 2px solid rgb(165, 165, 165);
 }
 
-#leftConatiner
+#leftConatinerAbout
 {
     display: grid;
 }
 
-#imageContainer
+#imageContainerAbout
 {
     height: 500px;
     width: 500px;
@@ -150,18 +155,6 @@ body{
     height: 500px;
 }
 
-#imageDescription
-{
-    height: 200px;
-    width: 500px;
-    background-color: #1c1f26;
-    border: 0.5px solid gray;
-    border-radius: 25px;
-    margin-left: 100px;
-    display: grid;
-    margin-top: 50px;
-}
-
 #aboutDescription
 {
     margin-left: 100px;
@@ -174,18 +167,54 @@ body{
     border: 0.5px solid gray;
     border-radius: 25px;
     margin-right: 100px;
-    
+}
+
+#imageDescription
+{
+    height: 200px;
+    width: 490px;
+    background-color: #1c1f26;
+    border: 0.5px solid gray;
+    border-radius: 25px;
+    margin-left: 100px;
+    margin-top: 50px;
+    display: grid;
 }
 
 .title
 {
-    margin: 0;
     text-align: center;
     color: white;
     padding-top: 25px;
-
-
+    margin-left: auto;
+    margin-right: auto;
 }
+
+.textLable, .textSymbole, .textValue
+{
+    color: white;
+    font-size: 23px;
+    font-family: verdana;
+}
+
+.textLable
+{
+    width: 150px;
+}
+
+.textValue
+{
+    font-weight: bold;
+}
+
+
+.info
+{
+    width: 500px;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
 /* VIEW PRORT */
 
 /* @media screen and (max-width: 360px)
